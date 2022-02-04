@@ -1,6 +1,11 @@
+const fs = require('fs');
+const path = require('path');
 const output = require('./outputWriter')
 const getUpdatedJsonData = require('../lib/json-refactor/StepsCommands')
 
-const fileName = 'single-test-summary-with-screenshots.json';
-const jsonData = getUpdatedJsonData(fileName);
-output(fileName,jsonData)
+const resourceFolder= path.join(__dirname,'../resources')
+const files = fs.readdirSync(resourceFolder);
+files.forEach((file) => {
+    const jsonData = getUpdatedJsonData(file);
+    output(file,jsonData);
+})
