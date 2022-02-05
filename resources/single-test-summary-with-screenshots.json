@@ -42,44 +42,7 @@
     "screenshotCount": 3,
     "failedAssertionCommandCount": 0,
     "passedAssertionCommandCount": 0,
-    "tracking": { "createdAt": 0, "lastUpdatedAt": 0 },
-    "key": "606a6408ac11a609c43d6313",
-    "items": [
-      {
-        "command": {
-          "name": "Command1",
-          "parameters": [],
-          "status": "FAILURE",
-          "startTime": 1623584966440,
-          "endTime": 1623584966940,
-          "uxDuration": 0,
-          "screenshots": ["executionId/a", "executionId/b"],
-          "expectedImages": [],
-          "expectedData": [],
-          "resultData": [],
-          "retryCount": 0,
-          "nestingDepth": 0,
-          "commandType": "DEFAULT"
-        }
-      },
-      {
-        "command": {
-          "name": "Command2",
-          "parameters": [],
-          "status": "FAILURE",
-          "startTime": 1623584966440,
-          "endTime": 1623584966940,
-          "uxDuration": 0,
-          "screenshots": ["executionId/c"],
-          "expectedImages": [],
-          "expectedData": [],
-          "resultData": [],
-          "retryCount": 0,
-          "nestingDepth": 0,
-          "commandType": "DEFAULT"
-        }
-      }
-    ]
+    "tracking": { "createdAt": 0, "lastUpdatedAt": 0 }
   },
   {
     "id": "606a6408ac11a609c43d6314",
@@ -109,26 +72,6 @@
     "screenshotCount": 0,
     "failedAssertionCommandCount": 0,
     "passedAssertionCommandCount": 0,
-    "tracking": { "createdAt": 0, "lastUpdatedAt": 0 },
-    "key": "606a6408ac11a609c43d6314",
-    "items": [
-      {
-        "command": {
-          "name": "Command3",
-          "parameters": [],
-          "status": "FAILURE",
-          "startTime": 1623584966953,
-          "endTime": 1623584967453,
-          "uxDuration": 0,
-          "screenshots": [],
-          "expectedImages": [],
-          "expectedData": [],
-          "resultData": [],
-          "retryCount": 0,
-          "nestingDepth": 0,
-          "commandType": "DEFAULT"
-        }
-      }
-    ]
+    "tracking": { "createdAt": 0, "lastUpdatedAt": 0 }
   }
 ]
