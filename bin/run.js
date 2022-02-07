@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const output = require('./outputWriter')
+const output = require('../lib/json-refactor/outputWriter')
 const getUpdatedJsonData = require('../lib/json-refactor/changeJson')
 
 const resourceDir= path.join(__dirname,'../resources')
